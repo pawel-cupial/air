@@ -1,0 +1,6 @@
+.m-product-info {text-transform: uppercase;display: flex;justify-content: space-between;padding: 0 20px;}
+.m-product-info .product-type {font-weight: 200;font-size: 22px;color:#525252;margin-bottom: 8px;}
+.m-product-info .product-name {font-size: 36px;margin-bottom: 18px;}
+.m-product-info .product-price {font-size: 48px;}
+.m-product-info span {vertical-align: super;font-size: 28px;}
+.m-product-info .product-info-flag {padding-top:6px;}

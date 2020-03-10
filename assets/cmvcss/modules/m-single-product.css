@@ -1,0 +1,4 @@
+.m-single-product {display: flex;}
+.m-single-product .product-photo {padding-right: 20px;}
+.m-single-product .product-photo, .m-single-product .product-description {border: 1px solid red;width:50%;}
+.m-single-product .product-photo img {width: 100%;height: auto;}
