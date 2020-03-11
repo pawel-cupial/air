@@ -1,0 +1,6 @@
+.c-product-info {text-transform: uppercase;display: flex;justify-content: space-between;padding: 0 20px;}
+.c-product-info .product-type {font-weight: 200;font-size: 22px;color:#525252;margin-bottom: 8px;}
+.c-product-info .product-name {font-size: 36px;margin-bottom: 18px;}
+.c-product-info .product-price {font-size: 48px;}
+.c-product-info span {vertical-align: super;font-size: 28px;}
+.c-product-info .product-info-flag {padding-top:6px;}
