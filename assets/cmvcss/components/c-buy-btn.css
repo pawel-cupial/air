@@ -1,3 +1,3 @@
-.c-buy-btn {padding: 15px 55px;text-transform: uppercase;font-size: 22px;color:#fff;background-image: linear-gradient(45deg,#11c1fe, #3f7dea);border-radius:10px;border: none;
-    transition: .3s;}
-.c-buy-btn i {padding-right: 16px;}
+.c-buy-btn {padding:15px 55px;text-transform:uppercase;font-size:22px;color:#fff;background-image:-o-linear-gradient(45deg,#11c1fe, #3f7dea);
+    background-image:linear-gradient(45deg,#11c1fe, #3f7dea);border-radius:10px;border:none;}
+.c-buy-btn i {padding-right:16px;}
