@@ -1,3 +1,6 @@
+/*
+    components used: c-buy-btn.
+*/
 .m-single-product {display:-webkit-box;display:-ms-flexbox;display:flex;}
 .m-single-product .product-photo {padding-right:20px;}
 .m-single-product .product-description {padding-top:40px;}
