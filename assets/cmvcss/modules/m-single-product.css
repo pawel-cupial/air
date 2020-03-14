@@ -1,5 +1,6 @@
 /*
-    components used: c-buy-btn, .c-product-info.
+    modules used: m-product-specs.
+    components used: c-buy-btn, c-product-info, c-single-spec.
 */
 .m-single-product {display:-webkit-box;display:-ms-flexbox;display:flex;}
 .m-single-product .product-photo {padding-right:20px;}
@@ -7,7 +8,6 @@
 .m-single-product .product-photo, .m-single-product .product-description {width:50%;}
 .m-single-product .product-photo img {width:100%;}
 .m-single-product .c-buy-btn {margin:30px 0 0 20px;}
-
 
 /* RWD */
 @media screen and (max-width: 1200px) {
@@ -23,6 +23,7 @@
 @media screen and (max-width: 510px) {
     .m-single-product .c-product-info *:not(.product-type) {font-size: 30px;}
     .m-single-product .product-description {display: flex;flex-direction: column;align-items:center;}
+    .m-single-product .m-product-specs {padding-top: 25px;}
 }
 
 @media screen and (max-width: 420px) {
@@ -31,4 +32,6 @@
     .m-single-product .c-product-info .product-info-flag {display:none;}
     .m-single-product .c-product-info .product-info-desc * {font-size: 22px;}
     .m-single-product .c-buy-btn {padding:10px 45px;margin: 20px 0 0 0;font-size: 20px;}
+    .m-single-product .m-product-specs {width: 90%;}
+    .m-single-product .m-product-specs .c-single-spec * {font-size: 18px;}
 }
